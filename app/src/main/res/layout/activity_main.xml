@@ -5,14 +5,14 @@
     <data>
         <variable
             name = "weather"
-            type = "com.teamtreehouse.stormy.CurrentWeather"/>
+            type = "com.teamtreehouse.stormy.Weather.Current"/>
     </data>
     <android.support.constraint.ConstraintLayout
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/appBackground"
-        tools:context="com.teamtreehouse.stormy.MainActivity">
+        tools:context="com.teamtreehouse.stormy.ui.MainActivity">
 
         <TextView
             android:id="@+id/temperatureView"
