@@ -27,8 +27,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="139" column="74" lean-forward="true" selection-start-line="139" selection-start-column="74" selection-end-line="139" selection-end-column="74" />
+            <state relative-caret-position="521">
+              <caret line="158" column="17" lean-forward="false" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
               <folding>
                 <element signature="e#3200#3466#0" expanded="true" />
                 <element signature="e#3465#3466#0" expanded="true" />
@@ -2447,7 +2447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527175495804</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="S1v4">
+      <created>1527175754335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527175754335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2492,7 +2499,8 @@
     <MESSAGE value="Starter  Project Files" />
     <MESSAGE value="S1v2" />
     <MESSAGE value="S1v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="S1v3" />
+    <MESSAGE value="S1v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="S1v4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2562,8 +2570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="139" column="74" lean-forward="true" selection-start-line="139" selection-start-column="74" selection-end-line="139" selection-end-column="74" />
+        <state relative-caret-position="521">
+          <caret line="158" column="17" lean-forward="false" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
           <folding>
             <element signature="e#3200#3466#0" expanded="true" />
             <element signature="e#3465#3466#0" expanded="true" />
