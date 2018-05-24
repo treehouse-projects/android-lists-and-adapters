@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f054e0d2-d2b0-4ca3-8508-e746678954fd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/adapters/HourlyAdapter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/adapters/HourlyAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/adapters/HourlyAdapter.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,12 +60,12 @@
       <file leaf-file-name="HourlyAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/adapters/HourlyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+            <state relative-caret-position="384">
+              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2532,7 +2532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527178800352</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="S3v2">
+      <created>1527179122922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527179122922</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2582,7 +2589,8 @@
     <MESSAGE value="S1v5" />
     <MESSAGE value="S2v2" />
     <MESSAGE value="S2v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="S2v3" />
+    <MESSAGE value="S3v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="S3v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2716,12 +2724,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/adapters/HourlyAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        <state relative-caret-position="384">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
           </folding>
         </state>
       </provider>
