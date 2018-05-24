@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.teamtreehouse.stormy.R;
 import com.teamtreehouse.stormy.Weather.Current;
+import com.teamtreehouse.stormy.Weather.Forecast;
 import com.teamtreehouse.stormy.databinding.ActivityMainBinding;
 
 import org.json.JSONException;
@@ -32,7 +33,7 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
 
   public static final String TAG = MainActivity.class.getSimpleName();
-  private Current current;
+  private Forecast forecast;
   private ImageView iconImageView;
 
   double latitude = 37.8267;
@@ -82,7 +83,9 @@ public class MainActivity extends AppCompatActivity {
             String jsonData = response.body().string();
             Log.v(TAG, jsonData);
             if (response.isSuccessful()) {
-              current = getCurrentDetails(jsonData);
+              forecast = parseForecastData(jsonData);
+
+              Current current = forecast.getCurrent();
 
               final Current displayWeather = new Current(
                   current.getLocationLabel(),
@@ -121,6 +124,14 @@ public class MainActivity extends AppCompatActivity {
       Toast.makeText(this, R.string.network_unavailable_message,
           Toast.LENGTH_LONG).show();
     }
+  }
+
+  private Forecast parseForecastData(String jsonData) throws JSONException {
+    Forecast forecast = new Forecast();
+
+    forecast.setCurrent(getCurrentDetails(jsonData));
+
+    return forecast;
   }
 
   private Current getCurrentDetails(String jsonData) throws JSONException {
