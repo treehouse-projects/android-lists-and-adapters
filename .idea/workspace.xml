@@ -27,12 +27,12 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="85" column="53" lean-forward="true" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+            <state relative-caret-position="285">
+              <caret line="139" column="74" lean-forward="true" selection-start-line="139" selection-start-column="74" selection-end-line="139" selection-end-column="74" />
               <folding>
-                <element signature="e#3127#3393#0" expanded="true" />
-                <element signature="e#3392#3393#0" expanded="true" />
-                <element signature="e#3726#3762#0" expanded="true" />
+                <element signature="e#3200#3466#0" expanded="true" />
+                <element signature="e#3465#3466#0" expanded="true" />
+                <element signature="e#3799#3835#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2440,7 +2440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527175055716</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="S1v3">
+      <created>1527175495804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527175495804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2484,7 +2491,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starter  Project Files" />
     <MESSAGE value="S1v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="S1v2" />
+    <MESSAGE value="S1v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="S1v3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2554,12 +2562,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="85" column="53" lean-forward="true" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+        <state relative-caret-position="285">
+          <caret line="139" column="74" lean-forward="true" selection-start-line="139" selection-start-column="74" selection-end-line="139" selection-end-column="74" />
           <folding>
-            <element signature="e#3127#3393#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
-            <element signature="e#3726#3762#0" expanded="true" />
+            <element signature="e#3200#3466#0" expanded="true" />
+            <element signature="e#3465#3466#0" expanded="true" />
+            <element signature="e#3799#3835#0" expanded="true" />
           </folding>
         </state>
       </provider>
