@@ -7,10 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f054e0d2-d2b0-4ca3-8508-e746678954fd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/HourlyForecastActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_forecast.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_hourly_forecast.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hourly_list_item.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
@@ -18,12 +20,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_forecast.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_forecast.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_hourly_forecast.xml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,51 +44,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="212" column="26" lean-forward="false" selection-start-line="212" selection-start-column="26" selection-end-line="212" selection-end-column="26" />
-              <folding>
-                <element signature="e#3231#3497#0" expanded="true" />
-                <element signature="e#3496#3497#0" expanded="true" />
-                <element signature="e#3830#3866#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="197" column="42" lean-forward="false" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HourlyForecastActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/HourlyForecastActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content_hourly_forecast.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_hourly_forecast.xml">
+      <file leaf-file-name="activity_hourly_forecast.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_forecast.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hourly_list_item.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/hourly_list_item.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -2210,6 +2184,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/AlertDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_forecast.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/hourly_list_item.xml" />
       </list>
     </option>
   </component>
@@ -2540,7 +2516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527175978509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="S2v2">
+      <created>1527176291792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527176291792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2588,7 +2571,8 @@
     <MESSAGE value="S1v3" />
     <MESSAGE value="S1v4" />
     <MESSAGE value="S1v5" />
-    <option name="LAST_COMMIT_MESSAGE" value="S1v5" />
+    <MESSAGE value="S2v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="S2v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2656,6 +2640,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="197" column="42" lean-forward="false" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/HourlyForecastActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2675,26 +2670,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="198" column="3" lean-forward="false" selection-start-line="198" selection-start-column="3" selection-end-line="198" selection-end-column="3" />
+          <folding>
+            <element signature="e#3231#3497#0" expanded="false" />
+            <element signature="e#3496#3497#0" expanded="false" />
+            <element signature="e#3830#3866#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_forecast.xml">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="197" column="42" lean-forward="false" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/stormy/ui/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/hourly_list_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="212" column="26" lean-forward="false" selection-start-line="212" selection-start-column="26" selection-end-line="212" selection-end-column="26" />
-          <folding>
-            <element signature="e#3231#3497#0" expanded="true" />
-            <element signature="e#3496#3497#0" expanded="true" />
-            <element signature="e#3830#3866#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
